@@ -1,0 +1,13 @@
+@import "../dashboard.css";
+
+.wrapper {
+  background-color: var(--bg-color);
+}
+
+.container {
+  display: flex;
+}
+
+.mainContainer {
+  flex: 4 1;
+}

@@ -1,0 +1,39 @@
+@import "../dashboard.css";
+.sidebar {
+  flex: 1;
+  height: calc(100vh - 50px);
+  position: sticky;
+  padding: 0px;
+  color: black;
+  margin: 0 0 10px 0;
+}
+
+.sidebarList {
+  list-style: none;
+  padding: 0;
+}
+.sidebarListItem,
+.active {
+  padding: 5px 5px 5px 0px;
+  cursor: pointer;
+  display: flex;
+  border-radius: 0px 30px 30px 0px;
+}
+
+.navLink-wrapper {
+  display: flex;
+  width: 19vw;
+  align-items: center;
+}
+.active {
+  background-color: #b8b9be;
+  width: 100%;
+}
+.sidebarListItem:hover {
+  background-color: #e3e4eb;
+}
+
+.sidebarIcon {
+  margin: 5px 10px 5px 25px;
+  font-size: 30px !important;
+}

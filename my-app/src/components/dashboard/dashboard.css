@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap");
+
+:root {
+  --bg-color: #eef0f7;
+  --textcolor-elementary: #9155fd;
+  --textcolor-secondary: #887d78;
+  --maincolor-first: #0088fe;
+  --maincolor-second: #00c49f;
+  --maincolor-third: #ffbb28;
+  --maincolor-fourth: #ff8042;
+  --heading-font-size: 20px;
+  --heading-font-weight: bold;
+  --text-font-size: 13px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+a,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.SettingsIcon {
+  color: #8c8a90;
+  float: right;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}

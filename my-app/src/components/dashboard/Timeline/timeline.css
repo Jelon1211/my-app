@@ -1,0 +1,82 @@
+@import "../dashboard.css";
+.timeLineContainer {
+  width: 100%;
+  margin: 50px 20px 100px 20px;
+  padding: 20px;
+  box-shadow: 0px 0px 15px -10px rgb(0 0 0 / 75%);
+  background-color: white;
+  border-radius: 10px;
+}
+.timelineHeading {
+  margin-bottom: 20px;
+  font-size: var(--heading-font-size);
+  font-weight: var(--heading-font-weight);
+}
+.feedHeading {
+  margin-bottom: 5px;
+}
+
+.feedNiceBall {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin: 0 12px 0 0;
+}
+.feedNiceBall.firstBall {
+  background-color: var(--textcolor-elementary);
+  box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.1);
+}
+.feedNiceBall.secondBall {
+  background-color: var(--maincolor-first);
+  box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.1);
+}
+.feedNiceBall.thirdBall {
+  background-color: var(--maincolor-third);
+  box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.1);
+}
+
+.feedTitle {
+  font-weight: var(--heading-font-weight);
+}
+.feedDate {
+  float: right;
+  font-size: var(--text-font-size);
+  color: var(--textcolor-secondary);
+}
+
+.feedDetails {
+  margin: 10px 0 10px 0;
+  display: flex;
+}
+
+.feedSeparator {
+  border-right: 2px solid darkgray;
+  margin-left: 3px;
+  margin-right: 20px;
+}
+
+.feedIcon {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin: 5px 5px 5px 0;
+  align-self: center;
+}
+
+.feedName {
+  align-self: center;
+  margin: 10px 0 10px 5px;
+  font-size: var(--text-font-size);
+  font-weight: var(--heading-font-weight);
+}
+
+.feedInfo {
+  font-size: var(--text-font-size);
+  color: var(--textcolor-secondary);
+}
+.feedName.feedText {
+  font-size: var(--text-font-size);
+  font-weight: 200;
+  color: var(--textcolor-secondary);
+}

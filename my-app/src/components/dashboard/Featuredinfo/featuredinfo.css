@@ -1,0 +1,136 @@
+@import "../dashboard.css";
+.featured {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.featuredItem {
+  flex: 1;
+  margin: 0px 20px;
+  padding: 30px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  background-color: white;
+}
+
+.generalItem {
+  flex: 3;
+  margin-bottom: -50px;
+}
+
+.featuredTitle {
+  font-size: var(--heading-font-size);
+  font-weight: var(--heading-font-weight);
+}
+
+.featuredPositionsContainer {
+  margin: 20px 0 5px 0;
+  display: flex;
+}
+
+.featuredNumber {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.featuredNumberRate {
+  display: flex;
+  align-items: center;
+  margin: 0 0 15px 5px;
+}
+
+.featuredInfoContainer {
+  margin-top: 10px;
+}
+
+.featuredInfo {
+  font-weight: var(--heading-font-weight);
+}
+.featuredInfoMonth {
+  color: var(--textcolor-secondary);
+}
+
+.bull {
+  color: lightgreen;
+  font-weight: var(--heading-font-weight);
+}
+.bear {
+  color: red;
+  font-weight: var(--heading-font-weight);
+}
+
+.featuredIcon {
+  margin-top: 3px;
+}
+
+.featuredSubContainer {
+  font-size: var(--text-font-size);
+  font-weight: var(--heading-font-weight);
+  color: var(--textcolor-secondary);
+  border-radius: 30px;
+  background-color: var(--bg-color);
+  max-width: 100px;
+  width: fit-content;
+}
+
+.yearly,
+.weekly {
+  margin: 10px;
+}
+.weekly {
+  color: var(--textcolor-secondary);
+}
+.yearly {
+  color: var(--textcolor-elementary);
+}
+
+.featuredNumbersContainer {
+  display: flex;
+  margin: 20px 5px 15px 0;
+}
+.featuredPositionsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.featuredEmployees {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.featuredEmployeesIcon {
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  display: inherit;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.featuredIcon {
+  color: white;
+}
+
+.featuredEmployeesHeading {
+  color: var(--textcolor-secondary);
+  font-size: var(--text-font-size);
+}
+.featuredGeneralNumber {
+  font-size: var(--heading-font-size);
+  font-weight: var(--heading-font-weight);
+}
+
+.trending {
+  background-color: var(--maincolor-first);
+}
+.person {
+  background-color: var(--maincolor-second);
+}
+.devices {
+  background-color: var(--maincolor-third);
+}
